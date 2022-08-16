@@ -12,6 +12,6 @@ For use with jsrex library (or your own zmq interface to trex)
 git clone --recursive https://github.com/velocipacktor/pyastf-json-convertor.git
 cd pyastf-json-convertor
 mkdir output
-./convertor.py trex-core/scripts/astf/http_simple.py | tee output/http_simple.json
-cat output/http_simple.json
+./convertor.py trex-core/scripts/astf/sfr.py | tee output/sfr.json
+cat output/sfr.json
 ```
